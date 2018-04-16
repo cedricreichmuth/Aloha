@@ -576,20 +576,32 @@ footer a:hover {
 	/*media queries footer*/
 	footer {
 		flex-direction: column;
+		justify-content: flex-end;
 	}
-	footer nav ul li {
-		width: 20px;
+	footer nav {
+		padding: 0px;
+		height: 30%;
 	}
 	footer nav li a{
 		display: none;
 	}
 	footer p {
 		text-align: center;
+		padding-left: 0px;
+		height: 50%;
 	}
 	footer nav ul {
 		display: flex;
 		width: 100%;
 		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	footer li {
+		display: flex;
+	}
+	footer nav ul li {
+		width: 20px;
 	}
 	/*media queries footer ends*/
 	body {
