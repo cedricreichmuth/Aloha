@@ -56,28 +56,28 @@ header {
 .logo {
 	width: 25%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	padding-left: 3%;
 }
 #aloha-logo {
   height: 100px;
   width: 150px;
-	padding-right: 30%;
 }
 .cart {
 	width: 25%;
 	display: flex;
 	order: 1;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
+	padding-right: 3%;
 }
 #cart {
   height: 75px;
   width: 75px;
-	padding-left: 50%;
 }
 header nav ul {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	width: 100%
 }
 header nav ul li{
@@ -160,6 +160,7 @@ align-items: center;
   font-weight: 300;
   line-height: 35px;
   color: #969696;
+	max-width: 543px;
 }
 /*hand crafted styles section ends*/
 /*categories section starts*/
@@ -485,17 +486,13 @@ footer a:hover {
 		width: 50%;
 		border-bottom: 1px solid #99969696;
 		justify-content: flex-end;
-	}
-	#cart {
-		padding-left: 0px;
+		padding-right: 0px;
 	}
 	.logo {
 		width: 50%;
 		border-bottom: 1px solid #99969696;
 		justify-content: flex-start;
-	}
-	#aloha-logo {
-		padding-right: 0px;
+		padding-left: 0px;
 	}
 	header nav {
 		width: 100%;
@@ -589,6 +586,7 @@ footer a:hover {
 		text-align: center;
 		padding-left: 0px;
 		height: 50%;
+		width: 100%;
 	}
 	footer nav ul {
 		display: flex;
@@ -608,7 +606,69 @@ footer a:hover {
 		font-size: 14px;
 	}
 }
-/*media queries end*/
+/*media queries phone end*/
+/*media queries tablet*/
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+	/*media queries tablet header*/
+	.logo {
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.cart {
+		justify-content: flex-end;
+		width: 20%;
+	}
+	header nav {
+		width: 60%;
+	}
+	/*media queries tablet header end*/
+	/*media queries tablet catgories*/
+	#categories h1 {
+		font-size: 30px;
+	}
+	#mens {
+		height: 200px;
+		border-bottom: 10px solid white;
+	  border-right: 10px solid white;
+	}
+	#trends {
+		height: 200px;
+		border-bottom: 10px solid white;
+	  border-right: 10px solid white;
+	}
+	#sale {
+		height: 200px;
+		border-right: 10px solid white;
+	}
+	#womens {
+		height: 200px;
+	}
+	#bags {
+		height: 200px;
+		border-right: 10px solid white;
+	}
+	#glasses {
+		height: 200px;
+		border-bottom: 10px solid white;
+	}
+	/*media queries tablet categories end*/
+	/*media queries tablet subscribe*/
+	#subscribe form {
+		width: 50%;
+	}
+	#subscribe p {
+		max-width: 436px;
+	}
+	/*media queries tablet subscribe end*/
+	/*media queries tablet footer*/
+	footer nav {
+		width: 40%;
+	}
+	footer p {
+		width: 60%;
+	}
+}
+/*media queries tablet end*/
 .container {
   max-width: 1240px;
   margin: auto;
