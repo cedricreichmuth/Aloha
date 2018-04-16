@@ -564,7 +564,6 @@ footer a:hover {
 	#subscribe p {
 		line-height: 27px;
 		max-width: 322px;
-		text-align: center;
 	}
 	#subscribe h1 {
 		font-size: 35px;
@@ -584,9 +583,8 @@ footer a:hover {
 	footer nav li a{
 		display: none;
 	}
-
-	footer nav li::before {
-
+	footer p {
+		text-align: center;
 	}
 	footer nav ul {
 		display: flex;
