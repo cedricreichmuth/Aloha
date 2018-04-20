@@ -351,9 +351,13 @@ align-items: center;
 .addToCart {
 	background-color: #242424;
 	width: 100px;
+	font-size: 14px;
+	height: 30px;
 	outline: none;
 	z-index: 2;
 	margin-bottom: 20px;
+	color: white;
+	border-radius: 50px;
 }
 /*most loved products section ends*/
 /*subscribe section starts*/
@@ -420,7 +424,7 @@ input {
 input:focus {
   outline: none;
 }
-button {
+.subscribeButton {
   background-color: #e2574c;
   width: 40%;
   color: white;
