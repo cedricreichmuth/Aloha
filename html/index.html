@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
   </head>
   <body>
     <header>
@@ -15,6 +17,7 @@
       </div>
       <div class="cart">
         <img id="cart" src="../images/cart-icon.svg">
+        <div class="itemCount"></div>
       </div>
       <nav>
         <ul>
@@ -63,56 +66,64 @@
       <h1>Most-Loved
         <span>Products</span>
       </h1>
-      <ul>
-        <li>
+      <div class="carousel">
+        <div>
           <img src="../images/checked-stretch-dress.jpg" alt="red dress with white dots">
           <h1>DRESSES</h1>
           <h2>Checked Stretch Dress</h2>
           <p>$129.00</p>
-        </li>
-        <li>
+          <button class="addToCart">Add to cart</button>
+        </div>
+        <div>
           <img src="../images/stretch-knit-dress.jpg" alt="black dress with white dots">
           <h1>DRESSES</h1>
           <h2>Stretch Knit Dress</h2>
           <p>$169.00</p>
-        </li>
-        <li>
+          <button class="addToCart">Add to cart</button>
+        </div>
+        <div>
           <img src="../images/pink-dotted-dress.jpg" alt="pink dress with black dots">
           <h1>DRESSES</h1>
           <h2>Pink Dotted Dress</h2>
           <p>$99.00</p>
-        </li>
-        <li>
+          <button class="addToCart">Add to cart</button>
+        </div>
+        <div>
           <img src="../images/denim-overall-shorts.jpg" alt="blue denim overall shorts">
           <h1>DENIM</h1>
           <h2>Denim Overall Shorts</h2>
           <p>$89.00</p>
-        </li>
-        <li>
+          <button class="addToCart">Add to cart</button>
+        </div>
+        <div>
           <img src="../images/blue-hipster-backpack.jpg" alt="blue hipster backpack">
           <h1>BAGS</h1>
           <h2>Blue Hipster Bag</h2>
           <p>$69.00</p>
-        </li>
-        <li>
+          <button class="addToCart">Add to cart</button>
+        </div>
+        <div>
           <img src="../images/cotton-blue-shirt.jpg" alt="cotton blue shirt">
           <h1>SHIRTS</h1>
           <h2>Cotton Blue Shirt</h2>
           <p>$89.00</p>
-        </li>
-        <li>
+          <button class="addToCart">Add to cart</button>
+        </div>
+        <div>
           <img src="../images/blue-silk-dress.jpg" alt="blue silk dress">
           <h1>DRESSES</h1>
           <h2>Blue Silk Dress</h2>
           <p>$119.00</p>
-        </li>
-        <li>
+          <button class="addToCart">Add to cart</button>
+        </div>
+        <div>
           <img src="../images/cotton-yellow-tshirt.jpg" alt="yellow cotton t-shirt">
           <h1>TSHIRTS</h1>
           <h2>Cotton Yellow Tshirt</h2>
           <p>$59.00</p>
-        </li>
-      </ul>
+          <button class="addToCart">Add to cart</button>
+        </div>
+      </div>
     </section>
     <section id="subscribe">
       <h1>Sign-up for
@@ -139,5 +150,10 @@
         </ul>
       </nav>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script rel="script" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>
