@@ -14,6 +14,7 @@ $(function() {
     dots: true,
     autoplay: true,
     autoplaySpeed: 3000,
+    arrows: false,
     responsive: [
     {
       breakpoint: 1049,
