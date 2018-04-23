@@ -655,11 +655,11 @@ footer a:hover {
 /*media queries tablet*/
 @media screen and (min-width: 601px) and (max-width: 1024px) {
 	/*media queries tablet header*/
-	.logo {
+	.logo-container {
 		align-items: center;
 		justify-content: flex-start;
 	}
-	.cart {
+	.cart-container {
 		justify-content: flex-end;
 		width: 20%;
 	}
