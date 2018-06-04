@@ -9,14 +9,20 @@ jQuery
 Screenshots:
 
 Desktop version:
+
+
 ![alt text](images/screenshots/desktop.png)
 
 
 
 Tablet Version:
+
+
 ![alt text](images/screenshots/tablet.png)
 
 
 
 Mobile Version:
+
+
 ![alt text](images/screenshots/mobile.png)
