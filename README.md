@@ -1,5 +1,9 @@
 # Project Title
 
+Aloha Apparel Co.
+
+## Description
+
 A project I completed during the Web Developer program at RED Academy
 The page is responsive and was coded with a mobile-first approach
 
