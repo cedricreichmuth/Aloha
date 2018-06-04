@@ -353,7 +353,7 @@ align-items: center;
 	font-size: 14px;
 	height: 30px;
 	outline: none;
-	z-index: 3;
+	z-index: 3 !important;
 	margin-bottom: 20px;
 	color: white;
 	border-radius: 50px;
