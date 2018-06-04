@@ -9,16 +9,16 @@ HTML5
 CSS3
 jQuery
 
-##Screenshots
+## Screenshots
 
-###Desktop version:
+### Desktop version:
 
 ![alt text](images/screenshots/desktop.png)
 
-###Tablet version:
+### Tablet version:
 
 ![alt text](images/screenshots/tablet.png)
 
-###Mobile version:
+### Mobile version:
 
 ![alt text](images/screenshots/mobile.png)
